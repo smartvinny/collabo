@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Intermediate Html</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+     <section class="header">
+        <nav>
+            <a  href="index.html"><img src="images/logo.png "></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="course.html">COURSE</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="facilities.html">FACILITIES</a></li>
+                 
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>United Arab Emirate Universty<br>(UAEU)</h1>
+            <p>This is the world class university,largest university in the world<br>it has the highest number of students .</p>
+            <a href=""class="hero-btn">Visit Us To Know More</a>
+            
+        </div>
+     </section>
+
+     <!------ courses ------>
+
+     <!--<section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  
+        <div class="row">
+        <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error non qui amet molestiae. Consequatur reiciendis itaque eius sunt delectus excepturi iste similique sequi facere voluptatibus fugit doloremque voluptatem, mollitia a.</p>
+      </div>
+
+     <div class="course-col">
+      <h3>Degree</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error non qui amet molestiae. Consequatur reiciendis itaque eius sunt delectus excepturi iste similique sequi facere voluptatibus fugit doloremque voluptatem, mollitia a.</p>
+    </div>
+    <div class="course-col">
+      <h3>Post Graduation</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error non qui amet molestiae. Consequatur reiciendis itaque eius sunt delectus excepturi iste similique sequi facere voluptatibus fugit doloremque voluptatem, mollitia a.</p>
+    </div>
+  </div>
+</section>
+</section>
+
+
+    
+    <!----- Facilities ----->
+    <!--<section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">       
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>Post Modern library</h3>
+            <p>The Campus has a well equipped Library with a student capacity of over 10,000 students that serves both students and staff. It is designed to provide a high level of support to both the teaching and learning programs. In addition to the book collection. Students have access to a wide array of electronic.Multimedia materials and global information through the internet. Qualified librarians supported, ensure that students are given the level of guidance and support they require, hence enabling them again valuable information from this resource centre..</p>
+            </div>
+            <div class="facilities-col">
+            <img src="images/basketball.png">
+               <h3>Largest Play Ground</h3>
+               <p>The Campus has a variety of recreational facilities which include one swimming pool, one football field, a basketball pitch and table tennis facilities. The football field is also used for hockey and rugby events. There is an excellent team at the campus that ensures proper administering of sport activities at the campus<br>
+
+                <p>Times: Games are to be held on Friday afternoon, from 1 p.m on wards.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/computer lab.jpg">
+               <h3>The computer lab</h3>
+               <p>The computer lab enables students to access internet recourses, both through local connections as well as wireless connections.     <br>There are seventy three functional computers and excellent technicians who work hand in hand with students.
+               <h4>Time</h4>
+                Computer lab opening hours
+                Monday - Friday: 8.00 am – 10 pm
+                Closed on public holidays and weekends.</p>
+            </div>
+        </div>
+    </section>        
+       
+    <!----- Call To Action---->
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses<br> Anyware from The World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+        
+    </section>
+
+        <!-- footer section-->
+     <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <h2>ABRAHAM KIPLIMO</h2>
+            <h1>REG NO.COM/M/0042/2021</h1>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+        </div>
+
+    </footer>  
+
+     <!------JavaScript for Toggle Menu------>
+       <script>
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+              navLinks.style.right = "0";
+  
+          }
+          function hideMenu(){
+              navLinks.style.right = "-200px";
+          }
+  
+  
+       </script>
+  
+  </body>
+  </html>
